@@ -25,5 +25,8 @@ module.exports = {
     'import/no-unresolved': 'off',
     'react/jsx-filename-extension': 'off',
     'no-useless-catch': 'off',
+    'consistent-return': 'off',
+    'no-console': 'off',
+    'no-param-reassign': 'off',
   },
 };

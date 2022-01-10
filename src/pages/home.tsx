@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
 export default function Home() {
-  console.log(process.env.API_KEY);
+  console.log('processo', process.env.REACT_APP_API_KEY);
   return <div>OLa mundo</div>;
 }
