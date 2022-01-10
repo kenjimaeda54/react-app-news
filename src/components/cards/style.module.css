@@ -1,0 +1,11 @@
+@import "../../global/color.css";
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 520px;
+  padding: 7px 15px;
+  border-radius: 4px;
+  background-color: var(--color-white);
+}
+

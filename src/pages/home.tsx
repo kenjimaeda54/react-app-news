@@ -1,6 +1,11 @@
 import React from 'react';
+import Card from '../components/cards';
+import Style from './style.module.css';
 
 export default function Home() {
-  console.log('processo', process.env.REACT_APP_API_KEY);
-  return <div>OLa mundo</div>;
+  return (
+    <main className={Style.container}>
+      <Card />
+    </main>
+  );
 }
